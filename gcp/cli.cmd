@@ -1,0 +1,1 @@
+gcloud compute instances create my-vm --zone=us-central1-a --machine-type=e2-medium

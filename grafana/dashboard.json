@@ -1,0 +1,15 @@
+{
+  "dashboard": {
+    "panels": [
+      {
+        "title": "CPU Usage",
+        "type": "graph",
+        "targets": [
+          {
+            "expr": "rate(container_cpu_usage_seconds_total[1m])"
+          }
+        ]
+      }
+    ]
+  }
+}
